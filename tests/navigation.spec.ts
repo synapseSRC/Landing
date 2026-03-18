@@ -30,7 +30,7 @@ test.describe('Navigation Tests', () => {
       expect(response?.status()).toBe(200);
 
       // Simple check to ensure page isn't empty or showing a generic 404
-      const heading = page.locator('h1');
+      const heading = page.locator('h1').first();
       await expect(heading).toBeVisible();
     });
   }
