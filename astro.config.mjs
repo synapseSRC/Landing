@@ -3,7 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://synapseSRC.github.io/synapseApp/',
+	site: 'https://synapsesrc.github.io',
 	base: '/synapseApp/',
 	integrations: [
 		starlight({
